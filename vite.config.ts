@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/ML-Algorithms-Games/", // <<— repo name (case-sensitive)
+  // Use root path on Vercel:
+  base: "/", // or simply remove the base line entirely (default is "/")
 })
