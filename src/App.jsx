@@ -603,7 +603,7 @@ export default function App(){
       </Tabs>
 
       <footer className="mt-10 text-xs text-muted-foreground">
-        Pro tip: Project to a screen; let students take turns adding points or choosing parameters. Discuss accuracy vs precision/recall, ROC vs PR, local vs global methods, and objective functions.
+        Observe accuracy vs precision/recall, ROC vs PR, local vs global methods, and objective functions.
       </footer>
     </div>
   );
