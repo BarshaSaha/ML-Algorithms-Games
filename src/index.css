@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-muted { @apply bg-gray-100; }
+.text-muted-foreground { @apply text-gray-500; }
